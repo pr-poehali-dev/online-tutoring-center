@@ -80,14 +80,10 @@ export default function MainSections() {
                 Подготовка к ЕГЭ, ОГЭ и ВПР в мини-группах и индивидуально. 
                 Регулярные отчёты о прогрессе каждые 2 недели.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div>
                 <Button size="lg" className="bg-gradient-to-r from-primary to-purple-700 hover:shadow-xl transition-all text-lg">
                   <Icon name="Sparkles" className="mr-2" size={20} />
                   Записаться на бесплатное занятие
-                </Button>
-                <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-purple-50">
-                  <Icon name="Play" className="mr-2" size={20} />
-                  Как это работает
                 </Button>
               </div>
               <div className="flex gap-8 pt-4">

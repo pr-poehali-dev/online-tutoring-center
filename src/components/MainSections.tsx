@@ -127,6 +127,37 @@ export default function MainSections() {
         </div>
       </section>
 
+      <section className="py-16 px-4 bg-white border-b border-gray-100">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-10">
+            <h3 className="text-2xl md:text-3xl font-bold font-montserrat text-gray-900 mb-2">
+              По каким предметам готовим
+            </h3>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+            {[
+              { name: 'Математика', icon: 'Calculator' },
+              { name: 'Русский язык', icon: 'BookOpen' },
+              { name: 'Английский', icon: 'Languages' },
+              { name: 'Информатика', icon: 'Code' },
+              { name: 'Химия', icon: 'FlaskConical' },
+              { name: 'Биология', icon: 'Leaf' },
+              { name: 'Обществознание', icon: 'Users' }
+            ].map((subject, idx) => (
+              <div 
+                key={idx} 
+                className="flex items-center gap-3 bg-white border-2 border-gray-200 rounded-xl px-5 py-3 hover:border-primary hover:shadow-lg transition-all animate-on-scroll"
+              >
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                  <Icon name={subject.icon} className="text-primary" size={20} />
+                </div>
+                <span className="font-semibold text-gray-800">{subject.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">

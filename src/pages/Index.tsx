@@ -163,7 +163,7 @@ export default function Index() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-gradient-to-r from-primary to-purple-700 hover:shadow-xl transition-all text-lg">
                   <Icon name="Sparkles" className="mr-2" size={20} />
-                  Пройти бесплатную диагностику
+                  Записаться на бесплатное занятие
                 </Button>
                 <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-purple-50">
                   <Icon name="Play" className="mr-2" size={20} />
@@ -246,7 +246,7 @@ export default function Index() {
             <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-4">
               Предметы для подготовки
             </h2>
-            <p className="text-xl text-gray-600">Выберите предмет для бесплатной диагностики</p>
+            <p className="text-xl text-gray-600">Выберите предмет для бесплатного занятия</p>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
             {subjects.map((subject, idx) => (
@@ -408,7 +408,7 @@ export default function Index() {
         <div className="container mx-auto max-w-2xl">
           <div className="text-center mb-12 animate-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-4">
-              Записаться на бесплатную диагностику
+              Записаться на бесплатное занятие
             </h2>
             <p className="text-xl text-gray-600">60 минут онлайн с преподавателем</p>
           </div>

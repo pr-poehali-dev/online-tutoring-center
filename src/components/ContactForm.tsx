@@ -28,15 +28,36 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contacts" className="py-20 px-4 bg-gradient-to-br from-purple-50 to-white">
+    <section id="contacts" className="py-20 px-4 bg-white">
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12 animate-on-scroll">
-          <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
             Записаться на бесплатное занятие
           </h2>
-          <p className="text-xl text-gray-600">60 минут онлайн с преподавателем</p>
+          <div className="bg-accent/10 border-2 border-accent/30 rounded-xl p-6 mb-8 max-w-lg mx-auto">
+            <p className="text-lg font-semibold text-gray-900 mb-2">Что вас ждёт на занятии:</p>
+            <ul className="text-left space-y-2 text-gray-700">
+              <li className="flex items-start gap-2">
+                <Icon name="Check" className="text-accent flex-shrink-0 mt-0.5" size={18} />
+                <span>Индивидуальный формат • 60 минут</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="Check" className="text-accent flex-shrink-0 mt-0.5" size={18} />
+                <span>Определим уровень знаний ребёнка</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="Check" className="text-accent flex-shrink-0 mt-0.5" size={18} />
+                <span>Составим персональный план</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="Check" className="text-accent flex-shrink-0 mt-0.5" size={18} />
+                <span>Объясним, как работает контроль</span>
+              </li>
+            </ul>
+          </div>
+          <p className="text-lg text-gray-600">Оставьте заявку — мы свяжемся в течение 30 минут</p>
         </div>
-        <Card className="animate-on-scroll shadow-2xl border-0">
+        <Card className="animate-on-scroll shadow-2xl border-2 border-gray-200">
           <CardContent className="pt-6">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -83,9 +104,9 @@ export default function ContactForm() {
                   Я соглашаюсь на обработку персональных данных и принимаю условия политики конфиденциальности
                 </Label>
               </div>
-              <Button type="submit" className="w-full bg-gradient-to-r from-primary to-purple-700 text-lg py-6">
-                <Icon name="Send" className="mr-2" size={20} />
-                Отправить заявку
+              <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-white font-semibold text-lg py-6 shadow-lg">
+                <Icon name="Sparkles" className="mr-2" size={20} />
+                Записаться на бесплатное занятие
               </Button>
             </form>
           </CardContent>

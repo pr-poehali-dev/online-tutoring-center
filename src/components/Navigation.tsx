@@ -18,7 +18,7 @@ export default function Navigation() {
           </span>
         </div>
         <div className="hidden md:flex gap-8 items-center">
-          <a href="#control" className="text-gray-600 hover:text-primary transition-colors font-medium">Как контролируем</a>
+          <a href="#how" className="text-gray-600 hover:text-primary transition-colors font-medium">Как работаем</a>
           <a href="#tariffs" className="text-gray-600 hover:text-primary transition-colors font-medium">Тарифы</a>
           <a href="#reviews" className="text-gray-600 hover:text-primary transition-colors font-medium">Отзывы</a>
         </div>

@@ -18,7 +18,7 @@ export default function FooterWithChat() {
                 </div>
                 <span className="text-2xl font-bold font-montserrat">PERFEKZ</span>
               </div>
-              <p className="text-gray-400 leading-relaxed">Онлайн-центр с системой контроля обучения</p>
+              <p className="text-gray-400 leading-relaxed">Онлайн-репетиторы с прозрачным процессом</p>
             </div>
             <div>
               <h3 className="font-semibold mb-4 text-white">Предметы</h3>
@@ -35,7 +35,7 @@ export default function FooterWithChat() {
             <div>
               <h3 className="font-semibold mb-4 text-white">Компания</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#control" className="hover:text-white transition-colors">Как контролируем</a></li>
+                <li><a href="#how" className="hover:text-white transition-colors">Как работаем</a></li>
                 <li><a href="#tariffs" className="hover:text-white transition-colors">Тарифы</a></li>
                 <li><a href="#reviews" className="hover:text-white transition-colors">Отзывы</a></li>
                 <li><a href="#contacts" className="hover:text-white transition-colors">Контакты</a></li>

@@ -7,7 +7,7 @@ const tariffs = [
   {
     name: 'БАЗОВЫЙ',
     price: '5 400',
-    controlLevel: 'Минимальный контроль',
+    controlLevel: 'Регулярные занятия',
     audience: 'Для самостоятельных учеников',
     format: 'Группа до 10 человек',
     duration: '4 занятия/мес • 60 минут',
@@ -23,7 +23,7 @@ const tariffs = [
   {
     name: 'СТАНДАРТ',
     price: '6 200',
-    controlLevel: 'Стабильный контроль',
+    controlLevel: 'С регулярными отчётами',
     audience: 'Для большинства учеников',
     format: 'Мини-группа 3–5 человек',
     duration: '8 занятий/мес • 60 минут',
@@ -40,7 +40,7 @@ const tariffs = [
   {
     name: 'ПРЕМИУМ',
     price: '9 900',
-    controlLevel: 'Максимальный контроль',
+    controlLevel: 'Полное сопровождение',
     audience: 'Для целенаправленной подготовки',
     format: 'Индивидуально • 1 на 1',
     duration: '8 занятий/мес • 60 минут',
@@ -48,7 +48,7 @@ const tariffs = [
       'Персональный план обучения',
       'Еженедельный отчёт родителю',
       'Проверка каждого домашнего задания',
-      'Контроль посещаемости',
+      'Отслеживание посещаемости',
       'Возможность замены преподавателя',
       'Гибкий график занятий'
     ],
@@ -74,7 +74,7 @@ const reviews = [
   },
   {
     name: 'Елена Иванова',
-    text: 'Очень довольна системой контроля — каждые две недели получаю отчёт о прогрессе дочери. Вижу реальные результаты!',
+    text: 'Очень довольна подходом — каждые две недели получаю отчёт о прогрессе дочери. Вижу реальные результаты и спокойна!',
     grade: '10 класс',
     subject: 'Химия',
     avatar: 'Е'
@@ -92,7 +92,7 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center space-y-6 animate-fade-in">
             <Badge className="bg-primary/10 text-primary border border-primary/20 px-4 py-2 text-sm font-semibold">
-              Онлайн-центр с системой контроля
+              Онлайн-репетиторы с прозрачным процессом
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold font-montserrat leading-tight">
               Вы всегда знаете,<br />
@@ -100,7 +100,7 @@ export default function MainSections() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               Репетитор может сказать «всё хорошо», но вы не видите реального прогресса.<br />
-              <span className="text-primary font-semibold">PERFEKZ — это контроль на каждом этапе.</span>
+              <span className="text-primary font-semibold">PERFEKZ — обучение под вашим присмотром.</span>
             </p>
             <div className="pt-4">
               <Button 
@@ -162,9 +162,9 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Почему родители теряют контроль
+              Почему родители переживают
             </h2>
-            <p className="text-xl text-gray-600">И как мы решаем эту проблему</p>
+            <p className="text-xl text-gray-600">И как мы даём спокойствие</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
@@ -176,7 +176,7 @@ export default function MainSections() {
               {
                 icon: 'XCircle',
                 problem: 'Ребёнок пропускает занятия',
-                solution: 'Контроль посещаемости и уведомления родителю'
+                solution: 'Вы получаете уведомление о каждом пропуске'
               },
               {
                 icon: 'FileQuestion',
@@ -201,13 +201,13 @@ export default function MainSections() {
         </div>
       </section>
 
-      <section id="control" className="py-20 px-4 bg-gradient-to-br from-purple-50 to-white">
+      <section id="how" className="py-20 px-4 bg-gradient-to-br from-purple-50 to-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Как работает система контроля PERFEKZ
+              Как мы работаем с вашим ребёнком
             </h2>
-            <p className="text-xl text-gray-600">Вы видите весь процесс обучения</p>
+            <p className="text-xl text-gray-600">Прозрачный процесс от диагностики до результата</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {[
@@ -218,7 +218,7 @@ export default function MainSections() {
               },
               { 
                 icon: 'Calendar', 
-                title: 'Контроль посещаемости', 
+                title: 'Отслеживание посещаемости', 
                 text: 'Вы получаете уведомление, если ребёнок пропустил занятие. Отмена возможна за 24 часа'
               },
               { 
@@ -270,9 +270,9 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Выберите уровень контроля
+              Выберите формат сопровождения
             </h2>
-            <p className="text-xl text-gray-600">Чем выше контроль — тем быстрее результат</p>
+            <p className="text-xl text-gray-600">Чем плотнее поддержка — тем быстрее результат</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {tariffs.map((tariff, idx) => (
@@ -344,7 +344,7 @@ export default function MainSections() {
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
               Что говорят родители
             </h2>
-            <p className="text-xl text-gray-600">Реальные отзывы о системе контроля</p>
+            <p className="text-xl text-gray-600">Реальные отзывы учеников и их родителей</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {reviews.map((review, idx) => (

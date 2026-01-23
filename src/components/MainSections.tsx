@@ -8,7 +8,7 @@ const tariffs = [
     name: 'БАЗОВЫЙ',
     price: '5 400',
     controlLevel: 'Регулярные занятия',
-    audience: 'Для самостоятельных учеников',
+    audience: 'Если ребёнок самостоятельный',
     format: 'Группа до 10 человек',
     duration: '4 занятия/мес • 60 минут',
     features: [
@@ -24,7 +24,7 @@ const tariffs = [
     name: 'СТАНДАРТ',
     price: '6 200',
     controlLevel: 'С регулярными отчётами',
-    audience: 'Для большинства учеников',
+    audience: 'Если хотите быть в курсе',
     format: 'Мини-группа 3–5 человек',
     duration: '8 занятий/мес • 60 минут',
     features: [
@@ -41,7 +41,7 @@ const tariffs = [
     name: 'ПРЕМИУМ',
     price: '9 900',
     controlLevel: 'Полное сопровождение',
-    audience: 'Для целенаправленной подготовки',
+    audience: 'Если нужна гарантия результата',
     format: 'Индивидуально • 1 на 1',
     duration: '8 занятий/мес • 60 минут',
     features: [
@@ -92,15 +92,16 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center space-y-6 animate-fade-in">
             <Badge className="bg-primary/10 text-primary border border-primary/20 px-4 py-2 text-sm font-semibold">
-              Онлайн-репетиторы с прозрачным процессом
+              Онлайн-репетиторы с системным подходом
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold font-montserrat leading-tight">
-              Вы всегда знаете,<br />
-              как учится ваш ребёнок
+              Ребёнка ведут,<br />
+              процесс понятен,<br />
+              родители спокойны
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               Репетитор может сказать «всё хорошо», но вы не видите реального прогресса.<br />
-              <span className="text-primary font-semibold">PERFEKZ — обучение под вашим присмотром.</span>
+              <span className="text-primary font-semibold">В PERFEKZ вы понимаете, что происходит — и можете на это влиять.</span>
             </p>
             <div className="pt-4">
               <Button 
@@ -162,26 +163,26 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Почему родители переживают
+              Почему родители теряют спокойствие
             </h2>
-            <p className="text-xl text-gray-600">И как мы даём спокойствие</p>
+            <p className="text-xl text-gray-600">И как мы возвращаем понимание процесса</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 icon: 'AlertCircle',
                 problem: 'Репетитор говорит «всё хорошо»',
-                solution: 'Отчёт родителю каждые 2 недели с конкретными результатами'
+                solution: 'Мы показываем конкретные результаты каждые 2 недели — вы видите прогресс'
               },
               {
                 icon: 'XCircle',
                 problem: 'Ребёнок пропускает занятия',
-                solution: 'Вы получаете уведомление о каждом пропуске'
+                solution: 'Мы сразу сообщаем о пропуске — вы реагируете, пока не поздно'
               },
               {
                 icon: 'FileQuestion',
                 problem: 'Домашние задания не проверяются',
-                solution: 'Проверка каждого ДЗ с объяснением ошибок'
+                solution: 'Каждое ДЗ проверяется с разбором ошибок — ребёнок не застревает'
               }
             ].map((item, idx) => (
               <Card key={idx} className="animate-on-scroll border-2 border-gray-200 hover:border-primary transition-all">
@@ -205,41 +206,41 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Как мы работаем с вашим ребёнком
+              Как проходит обучение
             </h2>
-            <p className="text-xl text-gray-600">Прозрачный процесс от диагностики до результата</p>
+            <p className="text-xl text-gray-600">Вы видите процесс и понимаете, что происходит на каждом этапе</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               { 
                 icon: 'ClipboardCheck', 
-                title: 'Диагностика и план', 
-                text: 'На первом занятии преподаватель определяет уровень знаний и составляет персональный план обучения'
+                title: 'Диагностика', 
+                text: 'Бесплатное занятие: определяем уровень, объясняем родителю план и показываем, как будем работать'
               },
               { 
-                icon: 'Calendar', 
-                title: 'Отслеживание посещаемости', 
-                text: 'Вы получаете уведомление, если ребёнок пропустил занятие. Отмена возможна за 24 часа'
+                icon: 'BookOpen', 
+                title: 'Регулярные занятия', 
+                text: 'Преподаватель следует плану, вы можете присутствовать. Если пропуск — сообщаем сразу'
               },
               { 
                 icon: 'FileCheck', 
-                title: 'Проверка домашних заданий', 
-                text: 'Каждое домашнее задание проверяется преподавателем с подробным разбором ошибок'
+                title: 'Проверка ДЗ', 
+                text: 'Каждое задание проверяется с разбором. Если ребёнок не понял — разбираем снова'
               },
               { 
-                icon: 'BarChart3', 
-                title: 'Регулярные отчёты', 
-                text: 'Каждые 2 недели вы получаете отчёт: что изучили, как выполняет ДЗ, какие есть сложности'
+                icon: 'MessageSquare', 
+                title: 'Отчёты родителю', 
+                text: 'Раз в 2 недели: что изучили, где прогресс, где сложности. Вы понимаете реальную картину'
+              },
+              { 
+                icon: 'TrendingUp', 
+                title: 'Реакция на проблемы', 
+                text: 'Если что-то не работает — меняем подход, темп или преподавателя. Вы не остаётесь один на один'
               },
               { 
                 icon: 'Target', 
-                title: 'Срезы знаний', 
-                text: 'Ежемесячно проводим контрольный срез, чтобы понять реальный прогресс ученика'
-              },
-              { 
-                icon: 'UserCheck', 
-                title: 'Замена преподавателя', 
-                text: 'Если формат или преподаватель не подходит — меняем без доплат (тариф Премиум)'
+                title: 'Движение к цели', 
+                text: 'Мы отслеживаем, чтобы ребёнок шёл к результату. Если сбились — корректируем маршрут'
               }
             ].map((item, idx) => (
               <div key={idx} className="flex gap-4 items-start animate-on-scroll">
@@ -270,9 +271,9 @@ export default function MainSections() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-3xl md:text-5xl font-bold font-montserrat mb-4">
-              Выберите формат сопровождения
+              Выберите уровень вовлечённости
             </h2>
-            <p className="text-xl text-gray-600">Чем плотнее поддержка — тем быстрее результат</p>
+            <p className="text-xl text-gray-600">Чем плотнее мы ведём — тем быстрее и стабильнее результат</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {tariffs.map((tariff, idx) => (

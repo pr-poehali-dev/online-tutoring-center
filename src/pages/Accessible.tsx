@@ -125,36 +125,46 @@ export default function Accessible({ onToggle }: AccessibleProps) {
             <div className="bg-gray-900 border-4 border-white p-8">
               <h3 className="text-3xl font-bold mb-4">БАЗОВЫЙ</h3>
               <p className="text-2xl mb-4">Ребёнок работает сам, нужна база</p>
-              <div className="text-4xl font-bold mb-6 text-yellow-400">от 1,200₽/занятие</div>
+              <div className="text-4xl font-bold mb-6 text-yellow-400">5 400₽/мес</div>
+              <p className="text-xl mb-4">Группа до 10 человек • 4 занятия/мес • 60 минут</p>
               <ul className="space-y-3 text-xl">
-                <li>• Персональный репетитор</li>
-                <li>• Занятия 1 на 1 онлайн</li>
-                <li>• Домашние задания</li>
+                <li>• Определим уровень и составим план</li>
+                <li>• Занятия по чёткому расписанию</li>
+                <li>• Проверка знаний раз в месяц</li>
+                <li>• Доступ к материалам курса</li>
               </ul>
+              <p className="text-lg mt-6 border-t-2 border-gray-700 pt-4">Подходит для дисциплинированных учеников</p>
             </div>
 
             <div className="bg-yellow-400 text-black border-4 border-yellow-400 p-8">
               <h3 className="text-3xl font-bold mb-4">СТАНДАРТ (ПОПУЛЯРНЫЙ)</h3>
               <p className="text-2xl mb-4">Хотите видеть процесс и влиять на него</p>
-              <div className="text-4xl font-bold mb-6">от 1,500₽/занятие</div>
+              <div className="text-4xl font-bold mb-6">6 200₽/мес</div>
+              <p className="text-xl mb-4 font-semibold">Мини-группа 3–5 человек • 8 занятий/мес • 60 минут</p>
               <ul className="space-y-3 text-xl font-semibold">
-                <li>• Всё из Базового</li>
-                <li>• Индивидуальный план обучения</li>
-                <li>• Отчёт после каждого занятия</li>
-                <li>• Еженедельная аналитика прогресса</li>
+                <li>• Вы понимаете, как идёт обучение</li>
+                <li>• Отчёт каждые 2 недели с конкретикой</li>
+                <li>• Узнаёте о пропусках сразу</li>
+                <li>• Каждое ДЗ проверяется с разбором</li>
+                <li>• Видите реальный прогресс ежемесячно</li>
               </ul>
+              <p className="text-lg mt-6 border-t-2 border-black pt-4 font-bold">Родитель спокоен, ребёнок под присмотром</p>
             </div>
 
             <div className="bg-gray-900 border-4 border-yellow-400 p-8">
               <h3 className="text-3xl font-bold mb-4">ПРЕМИУМ</h3>
               <p className="text-2xl mb-4">Нужна уверенность, что цель будет достигнута</p>
-              <div className="text-4xl font-bold mb-6 text-yellow-400">от 2,000₽/занятие</div>
+              <div className="text-4xl font-bold mb-6 text-yellow-400">9 900₽/мес</div>
+              <p className="text-xl mb-4">Индивидуально • 1 на 1 • 8 занятий/мес • 60 минут</p>
               <ul className="space-y-3 text-xl">
-                <li>• Всё из Стандарта</li>
-                <li>• Личный куратор на связи 24/7</li>
-                <li>• Гибкий график занятий</li>
-                <li>• Приоритетная поддержка</li>
+                <li>• Ребёнка ведут от А до Б</li>
+                <li>• Еженедельная связь с родителем</li>
+                <li>• Разбор каждой ошибки и пробела</li>
+                <li>• Реакция на любые отклонения</li>
+                <li>• Замена преподавателя без доплат</li>
+                <li>• График под вашу жизнь</li>
               </ul>
+              <p className="text-lg mt-6 border-t-2 border-gray-700 pt-4">Родитель управляет процессом, результат предсказуем</p>
             </div>
           </div>
         </section>

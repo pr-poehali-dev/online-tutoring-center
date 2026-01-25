@@ -10,7 +10,7 @@ export default function FooterWithChat() {
     <>
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-primary to-purple-700 rounded-lg flex items-center justify-center">
@@ -33,21 +33,26 @@ export default function FooterWithChat() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-white">Компания</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#how" className="hover:text-white transition-colors">Как работаем</a></li>
-                <li><a href="#tariffs" className="hover:text-white transition-colors">Тарифы</a></li>
-                <li><a href="#reviews" className="hover:text-white transition-colors">Отзывы</a></li>
-                <li><a href="#contacts" className="hover:text-white transition-colors">Контакты</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4 text-white">Документы</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li>Лицензия</li>
-                <li>Оферта</li>
-                <li>Политика конфиденциальности</li>
-              </ul>
+              <h3 className="font-semibold mb-4 text-white">Сведения об образовательной организации</h3>
+              <p className="text-gray-400 mb-4">Анохин А.Д.</p>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/files/0cfdba07-d247-40c2-82d8-491b7f81ea67.jpg" 
+                    alt="Министерство науки и высшего образования РФ"
+                    className="w-12 h-12 object-contain"
+                  />
+                  <span className="text-xs text-gray-400 leading-tight">Министерство науки и высшего образования РФ</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/files/ca6711d4-4f95-441e-88c0-e5643cd097d2.jpg" 
+                    alt="Министерство просвещения РФ"
+                    className="w-12 h-12 object-contain"
+                  />
+                  <span className="text-xs text-gray-400 leading-tight">Министерство просвещения РФ</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">

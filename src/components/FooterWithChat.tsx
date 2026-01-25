@@ -33,9 +33,10 @@ export default function FooterWithChat() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-white">Сведения об образовательной организации</h3>
-              <p className="text-gray-400 mb-4">Анохин А.Д.</p>
-              <div className="space-y-4">
+              <a href="/education-info" className="font-semibold mb-4 text-white hover:text-gray-300 transition-colors inline-block">
+                Сведения об образовательной организации ИП Анохин А.Д
+              </a>
+              <div className="space-y-4 mt-4">
                 <div className="flex items-center gap-3">
                   <img 
                     src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/files/0cfdba07-d247-40c2-82d8-491b7f81ea67.jpg" 

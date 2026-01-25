@@ -101,7 +101,24 @@ export default function ContactForm() {
               <div className="flex items-start gap-2">
                 <Checkbox id="terms" required />
                 <Label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed">
-                  Я соглашаюсь на обработку персональных данных и принимаю условия политики конфиденциальности
+                  Я соглашаюсь на{' '}
+                  <a 
+                    href="/personal-data.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    обработку персональных данных
+                  </a>
+                  {' '}и принимаю условия{' '}
+                  <a 
+                    href="/privacy-policy.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    политики конфиденциальности
+                  </a>
                 </Label>
               </div>
               <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-white font-semibold text-lg py-6 shadow-lg">

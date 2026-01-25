@@ -8,7 +8,7 @@ interface AccessibilityBarProps {
 
 export default function AccessibilityBar({ isAccessible, onToggle }: AccessibilityBarProps) {
   return (
-    <div className="bg-gray-900 text-white py-2 px-4">
+    <div className="fixed top-0 w-full bg-gray-900 text-white py-2 px-4 z-[60]">
       <div className="container mx-auto flex justify-end items-center">
         <Button
           onClick={onToggle}

@@ -88,7 +88,7 @@ export default function MainSections() {
 
   return (
     <>
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-purple-50 via-white to-white">
+      <section className="pt-40 pb-20 px-4 bg-gradient-to-br from-purple-50 via-white to-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center space-y-6 animate-fade-in">
             <Badge className="bg-primary/10 text-primary border border-primary/20 px-4 py-2 text-sm font-semibold">

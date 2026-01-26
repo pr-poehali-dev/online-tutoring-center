@@ -39,9 +39,9 @@ export default function FooterWithChat() {
               <div className="space-y-4 mt-4">
                 <a href="https://www.minobrnauki.gov.ru/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                   <img 
-                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/files/8f51f5bb-eb90-4a2b-b5c0-8694c2ee6685.jpg" 
+                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/bucket/e9450d58-cbbb-46a4-976b-7912c5366e94.png" 
                     alt="Министерство науки и высшего образования РФ"
-                    className="w-12 h-12 object-contain"
+                    className="h-12 w-auto object-contain"
                   />
                   <span className="text-xs text-gray-400 leading-tight">Министерство науки и высшего образования РФ</span>
                 </a>

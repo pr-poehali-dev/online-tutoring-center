@@ -17,8 +17,27 @@ export default function Management() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Руководство
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <h2 className="text-2xl font-semibold mb-6 text-foreground">Руководитель образовательной организации</h2>
+          <div className="space-y-6">
+            <div>
+              <p className="text-xl font-semibold text-foreground mb-4">Анохин Александр Дмитриевич</p>
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <Icon name="Phone" size={20} className="text-primary" />
+                  <a href="tel:+79821472622" className="text-lg text-gray-700 hover:text-primary transition-colors">
+                    +7 (982) 147-26-22
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Mail" size={20} className="text-primary" />
+                  <a href="mailto:super.armat2014@yandex.ru" className="text-lg text-gray-700 hover:text-primary transition-colors">
+                    super.armat2014@yandex.ru
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>

@@ -17,8 +17,20 @@ export default function Finance() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Финансово хозяйственная деятельность
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <h2 className="text-2xl font-semibold mb-6 text-foreground">Объем образовательной деятельности</h2>
+          <p className="text-lg text-gray-700 mb-6">Финансирование организации осуществляется Индивидуальным Предпринимателем.</p>
+          <h3 className="text-xl font-semibold mb-4 text-foreground">Источники формирования финансовых ресурсов организации:</h3>
+          <ul className="space-y-3">
+            <li className="flex items-start gap-3">
+              <span className="text-primary font-bold text-xl">•</span>
+              <span className="text-gray-700">частные средства;</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-primary font-bold text-xl">•</span>
+              <span className="text-gray-700">плата родителей (законных представителей) за услуги школы.</span>
+            </li>
+          </ul>
         </div>
       </main>
     </div>

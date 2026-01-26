@@ -17,8 +17,8 @@ export default function International() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Международное сотрудничество
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <p className="text-lg text-gray-700">ИП Анохин А.Д. не принимает участие в международной образовательной деятельности.</p>
         </div>
       </main>
     </div>

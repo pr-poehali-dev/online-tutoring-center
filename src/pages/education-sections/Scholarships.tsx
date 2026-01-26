@@ -17,8 +17,16 @@ export default function Scholarships() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Стипендии и меры поддержки обучающихся
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <h2 className="text-2xl font-semibold mb-6 text-foreground">Информация о наличии стипендий и мер социальной поддержки обучающихся</h2>
+          <div className="space-y-4">
+            <div className="border-l-4 border-primary pl-4">
+              <p className="text-lg text-gray-700 mb-2"><span className="font-semibold">Стипендии:</span> не предоставляются.</p>
+            </div>
+            <div className="border-l-4 border-primary pl-4">
+              <p className="text-lg text-gray-700"><span className="font-semibold">Общежитие / интернат:</span> не предоставляется.</p>
+            </div>
+          </div>
         </div>
       </main>
     </div>

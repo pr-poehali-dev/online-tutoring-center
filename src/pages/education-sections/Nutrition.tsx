@@ -17,8 +17,8 @@ export default function Nutrition() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Организация питания в образовательной организации
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <p className="text-lg text-gray-700">Организация питания в образовательной организации отсутствует.</p>
         </div>
       </main>
     </div>

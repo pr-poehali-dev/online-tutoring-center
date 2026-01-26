@@ -17,8 +17,44 @@ export default function Facilities() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда.
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <div className="space-y-6">
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                Реализация образовательных программ осуществляется исключительно с применением электронного обучения и дистанционных образовательных технологий.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                В образовательном процессе используются персональные компьютеры, средства аудио- и видеосвязи, программное обеспечение и информационно-телекоммуникационная сеть «Интернет».
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                Образовательный процесс реализуется с использованием электронных образовательных ресурсов и сервисов видеоконференцсвязи, обеспечивающих взаимодействие обучающихся и педагогических работников, передачу учебных материалов и фиксацию результатов обучения.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                Учебные помещения для проведения очных занятий не используются.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                Обучающиеся не находятся на территории образовательной организации. Организация питания обучающихся не осуществляется.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6">
+              <p className="text-lg text-gray-700">
+                Обучение инвалидов и лиц с ограниченными возможностями здоровья осуществляется в дистанционном формате. Специальные условия и адаптированные образовательные программы не предусмотрены.
+              </p>
+            </div>
+          </div>
         </div>
       </main>
     </div>

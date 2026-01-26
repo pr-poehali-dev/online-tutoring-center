@@ -37,21 +37,19 @@ export default function FooterWithChat() {
                 Сведения об образовательной организации ИП Анохин А.Д
               </a>
               <div className="space-y-4 mt-4">
-                <a href="https://www.minobrnauki.gov.ru/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <a href="https://www.minobrnauki.gov.ru/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                   <img 
                     src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/bucket/e9450d58-cbbb-46a4-976b-7912c5366e94.png" 
                     alt="Министерство науки и высшего образования РФ"
                     className="h-12 w-auto object-contain"
                   />
-                  <span className="text-xs text-gray-400 leading-tight">Министерство науки и высшего образования РФ</span>
                 </a>
-                <a href="https://edu.gov.ru/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <a href="https://edu.gov.ru/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                   <img 
                     src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/bucket/c713ef90-4a76-4bf2-8ea3-7a11bd22e590.png" 
                     alt="Министерство просвещения РФ"
                     className="h-12 w-auto object-contain"
                   />
-                  <span className="text-xs text-gray-400 leading-tight">Министерство просвещения РФ</span>
                 </a>
               </div>
             </div>

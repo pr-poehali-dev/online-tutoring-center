@@ -45,14 +45,14 @@ export default function FooterWithChat() {
                   />
                   <span className="text-xs text-gray-400 leading-tight">Министерство науки и высшего образования РФ</span>
                 </a>
-                <div className="flex items-center gap-3">
+                <a href="https://edu.gov.ru/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                   <img 
-                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/files/ca6711d4-4f95-441e-88c0-e5643cd097d2.jpg" 
+                    src="https://cdn.poehali.dev/projects/bf650be4-a6a0-4d84-b5e4-ff53d5bb9342/bucket/c713ef90-4a76-4bf2-8ea3-7a11bd22e590.png" 
                     alt="Министерство просвещения РФ"
-                    className="w-12 h-12 object-contain"
+                    className="h-12 w-auto object-contain"
                   />
                   <span className="text-xs text-gray-400 leading-tight">Министерство просвещения РФ</span>
-                </div>
+                </a>
               </div>
             </div>
           </div>

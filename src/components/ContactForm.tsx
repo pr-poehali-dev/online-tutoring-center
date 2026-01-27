@@ -23,8 +23,10 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success('Заявка отправлена! Мы свяжемся с вами в ближайшее время.');
-    setFormData({ name: '', phone: '', subject: '' });
+    const message = `Здравствуйте! Меня зовут ${formData.name}. Хочу записаться на пробное занятие по предмету "${formData.subject}". Мой телефон: ${formData.phone}`;
+    const vkUrl = `https://vk.me/repcentrperfekz?text=${encodeURIComponent(message)}`;
+    window.open(vkUrl, '_blank');
+    toast.success('Переходим в чат ВКонтакте...');
   };
 
   return (

@@ -17,8 +17,12 @@ export default function Structure() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">
           Структура и органы управления образовательной деятельностью
         </h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600">Содержимое раздела будет добавлено позже.</p>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+          <div className="border-l-4 border-primary pl-6">
+            <p className="text-lg text-gray-700">
+              В ИП Анохин А.Д. единоличный исполнительный орган управления.
+            </p>
+          </div>
         </div>
       </main>
     </div>

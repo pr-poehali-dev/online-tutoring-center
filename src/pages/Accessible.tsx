@@ -139,7 +139,7 @@ export default function Accessible({ onToggle }: AccessibleProps) {
             <div className="bg-yellow-400 text-black border-4 border-yellow-400 p-8">
               <h3 className="text-3xl font-bold mb-4">СТАНДАРТ (ПОПУЛЯРНЫЙ)</h3>
               <p className="text-2xl mb-4">Хотите видеть процесс и влиять на него</p>
-              <div className="text-4xl font-bold mb-6">6 200₽/мес</div>
+              <div className="text-4xl font-bold mb-6">6 900₽/мес</div>
               <p className="text-xl mb-4 font-semibold">Мини-группа 3–5 человек • 8 занятий/мес • 60 минут</p>
               <ul className="space-y-3 text-xl font-semibold">
                 <li>• Вы понимаете, как идёт обучение</li>

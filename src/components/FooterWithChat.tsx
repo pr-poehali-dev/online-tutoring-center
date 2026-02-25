@@ -55,7 +55,7 @@ export default function FooterWithChat() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>© 2024 PERFEKZ. ИП Иванов И.И. ИНН 123456789012. Все права защищены.</p>
+            <p>© 2024 PERFEKZ ИП Анохин А.Д. ИНН 860409985318. Все права защищены.</p>
           </div>
         </div>
       </footer>

@@ -225,7 +225,7 @@ export default function Accessible({ onToggle }: AccessibleProps) {
           <div className="space-y-4 text-2xl">
             <p>Телефон: +7 (999) 123-45-67</p>
             <p>Email: info@perfekz.ru</p>
-            <p>ИНН: 1234567890</p>
+            <p>ИНН: 860409985318</p>
           </div>
         </section>
       </main>

@@ -20,45 +20,55 @@ export default function Documents() {
         <h1 className="text-4xl font-bold mb-8 text-foreground">Документы</h1>
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-600">
-            <a href="http://perfekz.ru/docs/docs/1)%20%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%20%D0%98%D0%9F.pdf">
+            <a href="http://perfekz.ru/docs/docs/1) Сведение об ИП.pdf">
               Выписка из Единого государственного реестра индивидуальных
               предпринимателей
             </a>
           </p>
           <p className="text-gray-600">
-            <a href="">Правила внутреннего распорядка обучающихся ПЕРФЕКЗ</a>
-          </p>
-          <p className="text-gray-600">
-            <a href="">Правила приема обучающихся</a>
-          </p>
-          <p className="text-gray-600">
-            <a href="">
-              ПОРЯДОК возникновения, приостановления и прекращения отношений
+            <a href="http://perfekz.ru/docs/docs/2) ПРАВИЛА ВНУТРЕННЕГО РАСПОРЯДКА ОБУЧАЮЩИХСЯ PERFEKZ_signed.pdf">
+              Правила внутреннего распорядка обучающихся ПЕРФЕКЗ
             </a>
           </p>
           <p className="text-gray-600">
-            <a href="">Положение об оказании платных образовательных услуг</a>
+            <a href="http://perfekz.ru/docs/docs/3) Правила приёма_signed.pdf">
+              Правила приема обучающихся
+            </a>
           </p>
           <p className="text-gray-600">
-            <a href="">Положение о режиме занятий обучающихся</a>
+            <a href="http://perfekz.ru/docs/docs/4) ВОЗНИКНОВЕНИЕ_ПРЕКРАЩЕНИЕ_ОТНОШЕНИЙ_signed.pdf">
+              Порядок возникновения, приостановления и прекращения отношений
+            </a>
           </p>
           <p className="text-gray-600">
-            <a href="">Правила внутреннего трудового распорядка</a>
+            <a href="http://perfekz.ru/docs/docs/5) Положение обоказанииплатных образовательных услуг_signed.pdf">
+              Положение об оказании платных образовательных услуг
+            </a>
           </p>
           <p className="text-gray-600">
-            <a href="">
-              ПОЛОЖЕНИЕ О формах, периодичности и порядке текущего контроля
+            <a href="http://perfekz.ru/docs/docs/6) Положение о режиме занятий_signed.pdf">
+              Положение о режиме занятий обучающихся
+            </a>
+          </p>
+          <p className="text-gray-600">
+            <a href="http://perfekz.ru/docs/docs/9) ПРАВИЛА ВНУТРЕННЕГО ТРУДОВОГО РАСПОРЯДКА_signed.pdf">
+              Правила внутреннего трудового распорядка
+            </a>
+          </p>
+          <p className="text-gray-600">
+            <a href="http://perfekz.ru/docs/docs/10) Положение об аттестации (pdf)_signed.pdf">
+              Положение о формах, периодичности и порядке текущего контроля
               успеваемости, промежуточной аттестации обучающихся
             </a>
           </p>
           <p className="text-gray-600">
-            <a href="">
+            <a href="http://perfekz.ru/docs/docs/11) Пололжение о порядке и основаниях для перевода, отчисления_signed.pdf">
               Положение о порядке и основаниях для перевода, отчисления
               воспитанников
             </a>
           </p>
           <p className="text-gray-600">
-            <a href="">
+            <a href="http://perfekz.ru/docs/docs/ОФЕРТА ИП Анохин Александр Дмитриевич_ ИНН 860409985318.pdf">
               Оферта о заключении договора возмездного оказания образовательных
               услуг
             </a>

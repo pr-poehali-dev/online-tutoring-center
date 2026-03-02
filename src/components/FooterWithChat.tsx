@@ -16,7 +16,7 @@ export default function FooterWithChat() {
                 <div className="w-10 h-10 bg-gradient-to-br from-primary to-purple-700 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">P</span>
                 </div>
-                <span className="text-2xl font-bold font-montserrat">PERFEKZ</span>
+                <span className="text-2xl font-bold font-montserrat">ПЕРФЕКЗ</span>
               </div>
               <p className="text-gray-400 leading-relaxed">Онлайн-репетиторы с прозрачным процессом</p>
             </div>
@@ -55,7 +55,7 @@ export default function FooterWithChat() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>© 2024 PERFEKZ ИП Анохин А.Д. ИНН 860409985318. Все права защищены.</p>
+            <p>© 2024 ПЕРФЕКЗ ИП Анохин А.Д. ИНН 860409985318. Все права защищены.</p>
           </div>
         </div>
       </footer>

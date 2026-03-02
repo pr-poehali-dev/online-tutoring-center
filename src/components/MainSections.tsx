@@ -101,7 +101,7 @@ export default function MainSections() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               Репетитор может сказать «всё хорошо», но вы не видите реального прогресса.<br />
-              <span className="text-primary font-semibold">В PERFEKZ ребёнка не оставляют один на один с предметом — вы видите каждый шаг.</span>
+              <span className="text-primary font-semibold">В ПЕРФЕКЗ ребёнка не оставляют один на один с предметом — вы видите каждый шаг.</span>
             </p>
             <div className="pt-4">
               <Button 

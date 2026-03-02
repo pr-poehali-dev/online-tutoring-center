@@ -14,7 +14,7 @@ export default function Navigation() {
             <span className="text-white font-bold text-xl">P</span>
           </div>
           <span className="text-2xl font-bold font-montserrat bg-gradient-to-r from-primary to-purple-700 bg-clip-text text-transparent">
-            PERFEKZ
+            ПЕРФЕКЗ
           </span>
         </div>
         <div className="hidden md:flex gap-8 items-center">

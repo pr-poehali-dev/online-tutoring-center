@@ -20,7 +20,7 @@ export default function Documents() {
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-600"><a href="http://perfekz.ru/docs/docs/1)%20%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%20%D0%98%D0%9F.pdf">Выписка
 из Единого государственного реестра индивидуальных предпринимателей
-/a></p><br>
+</a></p><br>
           <p className="text-gray-600"><a href="">Правила внутреннего распорядка обучающихся ПЕРФЕКЗ</a></p><br>
           <p className="text-gray-600"><a href="">Правила приема обучающихся</a></p><br>
           <p className="text-gray-600"><a href="">ПОРЯДОК возникновения, приостановления и прекращения отношений</a></p><br>

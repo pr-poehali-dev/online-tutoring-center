@@ -11,7 +11,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-gradient-to-br from-primary to-purple-700 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-xl">P</span>
+            <span className="text-white font-bold text-xl">П</span>
           </div>
           <span className="text-2xl font-bold font-montserrat bg-gradient-to-r from-primary to-purple-700 bg-clip-text text-transparent">
             ПЕРФЕКЗ
